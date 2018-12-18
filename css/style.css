@@ -1,0 +1,408 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  font-family: 'Archivo', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+.logo{
+  margin-left: 260px;
+  padding: 20px;
+}
+
+li{
+	display: inline-block;
+
+}
+
+nav{
+  width: 950px;
+  margin-left: 250px;
+  background-color: #222931;
+	font-size: 12px;
+  position: absolute;
+	height: 48px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+	padding: 15px;
+}
+
+.header{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+.banner1{
+  position: absolute;
+	margin-left: 275px;
+}
+
+.banner2{
+  margin-left: 600px;
+	position: absolute;
+}
+
+.banner3{
+  margin-left: 925px;
+	position: absolute;
+}
+
+.imgcontainer{
+  padding-bottom: 275px;
+}
+
+.gelebanner{
+  background-color:#ffe718;
+  height: 130px;
+  width: 100%;
+	margin-bottom: 75px;
+}
+
+h1{
+  display: inline-block;
+  padding: 50px;
+  margin-left: 200px;
+	font-size: 34px;
+}
+
+.smaller{
+	font-size: 16px;
+	font-weight: 700;
+	margin-left: 25px;
+	margin-right: 200px;
+}
+
+.button{
+	font-size: 12px;
+  font-weight: 500;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footerimg{
+	width: 100%;
+	height: auto;
+}
+
+h2{
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.deals{
+	margin-top: 175px;
+  background-color: #ffe718;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+	margin-left: 275px;
+}
+
+.diensten{
+	margin-top: 175px;
+	margin-left: 300px;
+  background-color: #ffe718;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+	margin-left: 600px;
+}
+
+.bericht{
+	margin-top: 175px;
+	position: absolute;
+  background-color: #ffe718;
+  width: 300px;
+	margin-left: 925px;
+  height: 100px;
+}
+
+h2{
+  display: inline-block;
+  position: absolute;
+  margin-top: 30px;
+	font-size: 22px;
+}
+
+.handshake{
+  margin-left: 30px;
+  margin-top: 20px;
+	margin-right: 20px;
+  padding: 5px;
+  height: 45%;
+}
+
+.box{
+	margin-left: 30px;
+  margin-top: 20px;
+	margin-right: 20px;
+  padding: 5px;
+  height: 45%;
+}
+
+.envelope{
+	margin-left: 30px;
+  margin-top: 20px;
+	margin-right: 20px;
+  padding: 5px;
+  height: 45%;
+}
+
+h3{
+	position: absolute;
+	display: inline-block;
+	margin-top: 50px;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+hr{
+	margin-left: 275px;
+	width: 950px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	opacity: 0.5;
+}
+
+.overons{
+	margin-left: 275px;
+	position: absolute;
+}
+
+h4{
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+
+p{
+	width: 420px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+.contact{
+	margin-left: 950px;
+}
+
+.mapsicon{
+  height: 25px;
+	display: inline;
+	position: absolute;
+	opacity: 0.5;
+}
+
+.mobileicon{
+	height: 25px;
+	display: inline;
+	position: absolute;
+	margin-top: 70px;
+	opacity: 0.5;
+}
+
+.emailicon{
+	height: 25px;
+	display: inline;
+	position: absolute;
+	margin-top: 120px;
+	opacity: 0.5;
+}
+
+.adres{
+	position: absolute;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	width: 120px;
+	margin-left: 40px;
+	margin-bottom: 15px;
+}
+
+.nummer{
+	position: absolute;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	width: 120px;
+	margin-left: 40px;
+	margin-bottom: 15px;
+	margin-top: 75px;
+}
+
+.email{
+	position: absolute;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+	width: 120px;
+	margin-left: 40px;
+	margin-bottom: 15px;
+	margin-top: 125px;
+}
+
+footer{
+	background-color: #222931;
+	margin-top: 250px;
+	height: 50px;
+	color: white;
+}
+
+footer p{
+	float: right;
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 18px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+div.deals:hover, div.diensten:hover, div.bericht:hover, .button:hover{
+	background-color: #222931;
+	color: white;
+}
+
+a:hover, li:hover {
+	background-color: #ffe718;
+	padding-bottom: 11px;
+	color: #222931;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 97%;
+	width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(34,41,49,0.8);
+}
+
+.imgcontainer:hover .overlay {
+  opacity: 1.5;
+	background-color: rgba(34,41,49,0.8);
+}
+
+.text{
+	color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.dropbtn {
+	background-color: #222931;
+ 	color: white;
+	padding: 15px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #222931;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+  color: silver;
+  padding: 15px 10px;
+	width: 150px;
+  text-decoration: none;
+  display: block;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.dropdown-content a:hover{
+	color: #222931;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffe718;
+}
+
+.diensten-pagina{
+	height: 400px;
+	margin-left: 275px;
+	width: 900px;
+}
+
+
+h5{
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+h6{
+	font-size:34px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+p.diensten-text{
+	width: 910px;
+	font-size:16px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+span{
+	position: relative;
+	color: #ffe718;
+	cursor: pointer;
+}
+
+.hover1{
+	font-size: 12px;
+	background-color: #aeb6be;
+	color: white;
+	position: absolute;
+	display: none;
+	padding: 3px;
+	top: 17px;
+	left: 0px;
+	width: 185px;
+}
+
+span:hover .hover1 {
+  display: block;
+}

@@ -1,6 +1,7 @@
 Primary: #222931   /* Donker grijs */
 
-- Menubalk
+- 
+Menubalk
 - Lopende tekst
 - Tekst ribbon
 - Tekst banners onder
@@ -15,7 +16,8 @@ Primary: #222931   /* Donker grijs */
 
 Secondary: #ffe718 /* Geel */
 
-- Hover Menu items
+- 
+Hover Menu items
 - Ribbon
 - Tekstkleur woorden met extra tooltip
 
@@ -23,21 +25,24 @@ Secondary: #ffe718 /* Geel */
 
 Tertiary: #5f656d /* Midden grijs */
 
-- Breadcrumb
+- 
+Breadcrumb
 - Footer lopende tekst incl adres
 
 
 
 Alternate: #aeb6be /* Licht grijs */
 
-- Iconen footer
+- 
+Iconen footer
 - Tooltip
 
 
 
 Alternate 2: #ffffff; /* Wit */
 
-- Menu items tekst
+- 
+Menu items tekst
 - Banner boven tekst
 - Tooltip tekst
 - Hover button ribbon tekst
