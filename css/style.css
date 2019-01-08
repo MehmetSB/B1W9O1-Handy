@@ -17,7 +17,6 @@ body{
 
 li{
 	display: inline-block;
-
 }
 
 nav{
@@ -279,9 +278,8 @@ div.deals:hover, div.diensten:hover, div.bericht:hover, .button:hover{
 	color: white;
 }
 
-a:hover, li:hover {
+a.menu-items:hover, li:hover {
 	background-color: #ffe718;
-	padding-bottom: 11px;
 	color: #222931;
 }
 
@@ -298,7 +296,7 @@ a:hover, li:hover {
   background-color: rgba(34,41,49,0.8);
 }
 
-.imgcontainer:hover .overlay {
+.overlay:hover {
   opacity: 1.5;
 	background-color: rgba(34,41,49,0.8);
 }
@@ -348,7 +346,7 @@ a:hover, li:hover {
 	font-weight: 500;
 }
 
-.dropdown-content a:hover{
+.dropdown-content a:hover, .dropbtn:hover{
 	color: #222931;
 }
 
@@ -406,4 +404,12 @@ span{
 
 span:hover .hover1 {
   display: block;
+}
+
+.box-links{
+	color: black;
+}
+
+a#breadcrumbs{
+	color: black;
 }
